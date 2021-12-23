@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Pmod-Interface-emt:Pmod-Interface-GPIO12 J1
+L pmi-hw-carlos-rescue:Pmod-Interface-GPIO12-Pmod-Interface-emt J1
 U 1 1 6086BFD4
 P 950 1600
 F 0 "J1" H 1050 2100 50  0000 R CNN
@@ -25,7 +25,7 @@ F 3 "~" H 1150 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pmod-Interface-emt:Pmod-Interface-GPIO12 J2
+L pmi-hw-carlos-rescue:Pmod-Interface-GPIO12-Pmod-Interface-emt J2
 U 1 1 6086C05D
 P 2650 1600
 F 0 "J2" H 2800 2100 50  0000 R CNN
@@ -494,7 +494,7 @@ F 7 "1301.9315" H 1050 3800 50  0001 C CNN " Manufacturer Part No "
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mechanical-emt:Silkscreen_Label H1
+L pmi-hw-carlos-rescue:Silkscreen_Label-Mechanical-emt H1
 U 1 1 60893C8D
 P 2550 3750
 F 0 "H1" H 2675 3795 50  0000 L CNN
@@ -505,7 +505,7 @@ F 3 "~" H 2550 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical-emt:Silkscreen_Label H2
+L pmi-hw-carlos-rescue:Silkscreen_Label-Mechanical-emt H2
 U 1 1 60895E1B
 P 2550 4150
 F 0 "H2" H 2675 4195 50  0000 L CNN
@@ -516,7 +516,7 @@ F 3 "~" H 2550 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical-emt:Silkscreen_Label H3
+L pmi-hw-carlos-rescue:Silkscreen_Label-Mechanical-emt H3
 U 1 1 608960E2
 P 2550 3950
 F 0 "H3" H 2675 3995 50  0000 L CNN

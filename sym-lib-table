@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name pmi-hw-carlos-rescue)(type Legacy)(uri ${KIPRJMOD}/pmi-hw-carlos-rescue.lib)(options "")(descr ""))
+)

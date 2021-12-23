@@ -100,26 +100,31 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Mechanical-emt_Silkscreen_Label
+# Switch_SW_DIP_x01
 #
-DEF Mechanical-emt_Silkscreen_Label H 0 20 Y Y 1 F N
-F0 "H" 0 100 50 H V C CNN
-F1 "Mechanical-emt_Silkscreen_Label" 0 -100 50 H V C CNN
+DEF Switch_SW_DIP_x01 SW 0 0 Y N 1 F N
+F0 "SW" 0 150 50 H V C CNN
+F1 "Switch_SW_DIP_x01" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Symbol*:*
+ SW?DIP?x1*
 $ENDFPLIST
 DRAW
-T 0 0 0 50 0 0 0 Label Normal 0 C C
+C -80 0 20 0 0 0 N
+C 80 0 20 0 0 0 N
+S -150 100 150 -100 0 1 10 f
+P 2 0 0 0 -60 5 93 46 N
+X ~ 1 -300 0 200 R 50 50 1 1 P
+X ~ 2 300 0 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Pmod-Interface-emt_Pmod-Interface-GPIO12
+# pmi-hw-carlos-rescue_Pmod-Interface-GPIO12-Pmod-Interface-emt
 #
-DEF Pmod-Interface-emt_Pmod-Interface-GPIO12 J 0 40 Y Y 1 F N
+DEF pmi-hw-carlos-rescue_Pmod-Interface-GPIO12-Pmod-Interface-emt J 0 40 Y Y 1 F N
 F0 "J" 100 500 50 H V C CNN
-F1 "Pmod-Interface-emt_Pmod-Interface-GPIO12" 500 -500 50 H V C CNN
+F1 "pmi-hw-carlos-rescue_Pmod-Interface-GPIO12-Pmod-Interface-emt" 500 -500 50 H V C CNN
 F2 "" 200 50 50 H I C CNN
 F3 "" 200 50 50 H I C CNN
 $FPLIST
@@ -142,23 +147,18 @@ X IO7 9 400 -250 150 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# Switch_SW_DIP_x01
+# pmi-hw-carlos-rescue_Silkscreen_Label-Mechanical-emt
 #
-DEF Switch_SW_DIP_x01 SW 0 0 Y N 1 F N
-F0 "SW" 0 150 50 H V C CNN
-F1 "Switch_SW_DIP_x01" 0 -150 50 H V C CNN
+DEF pmi-hw-carlos-rescue_Silkscreen_Label-Mechanical-emt H 0 20 Y Y 1 F N
+F0 "H" 0 100 50 H V C CNN
+F1 "pmi-hw-carlos-rescue_Silkscreen_Label-Mechanical-emt" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- SW?DIP?x1*
+ Symbol*:*
 $ENDFPLIST
 DRAW
-C -80 0 20 0 0 0 N
-C 80 0 20 0 0 0 N
-S -150 100 150 -100 0 1 10 f
-P 2 0 0 0 -60 5 93 46 N
-X ~ 1 -300 0 200 R 50 50 1 1 P
-X ~ 2 300 0 200 L 50 50 1 1 P
+T 0 0 0 50 0 0 0 Label Normal 0 C C
 ENDDRAW
 ENDDEF
 #
