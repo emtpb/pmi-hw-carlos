@@ -20,3 +20,7 @@ found [here](bom/ibom.html).
 
 ## V1.1
 * First release.
+
+## V1.1.1
+* Update project to Kicad 6.
+* Change the load resistance R1 of the capacitors from 10k Ohm to 1k Ohm.
