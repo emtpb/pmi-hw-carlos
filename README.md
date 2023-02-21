@@ -15,12 +15,15 @@ found [here](bom/ibom.html).
 
 # Changelog
 
-## V1.0
-* First prototype.
+## 1.0
+* First prototype
 
-## V1.1
-* First release.
+## 1.1
+* First release
 
-## V1.1.1
-* Update project to Kicad 6.
-* Change the load resistance R1 of the capacitors from 10 kΩ to 1 kΩ.
+## 1.1.1
+* Update project to Kicad 6
+* Change the load resistance R1 of the capacitors from 10 kΩ to 1 kΩ
+
+## 1.2
+* Round pcb corners
